@@ -1,0 +1,450 @@
+<!DOCTYPE html> 
+
+
+
+<html> 
+
+
+<head>
+  <title>Casino.bot</title>
+  
+
+  
+  
+  <script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {modal.style.display = "none";}}
+</script>
+<script>function openNav() {
+ document.getElementById("mySidenav")
+ .style.width="250px";}
+function closeNav() {
+ document.getElementById("mySidenav")
+ .style.width = "0";}</script>  
+  
+  <style>
+  
+  
+  
+    
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; font-size:49px;
+    background-color: #333;}
+
+li {float: left;}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;}
+
+li a:hover:not(.active) {
+    background-color: turquoise;}.active {
+    background-color: steelblue;}
+
+
+body { font-family: "times new roman", sans-serif; }
+.sidenav { height: 100%; width:0; position: fixed; z-index: 1; top: 0; right:0; background-color: #111; overflow-x: hidden; transition: 0.5s; padding-top: 60px; } 
+  .sidenav a { padding: 8px 8px 8px 32px; text-decoration: none; font-size: 25px; color: #818181; display: block; transition: 0.3s } 
+  .sidenav a:hover, .offcanvas a:focus{ color: #f1f1f1; } 
+  .sidenav .closebtn { position: absolute; top: 0; right: 25px; font-size: 36px; margin-left: 50px; } @media screen and (max-height: 450px){ .sidenav {padding-top: 15px;} .sidenav a {font-size: 18px;} } 
+
+
+
+
+ header { background-color:black; color:white; text-align:center;font-family:ariel black;font-size:50px; padding:5px; } 
+ 
+ footer { background-color:#333; color:white; clear:both; text-align:center; padding:5px; } 
+ 
+ 
+  p { color:black ; font-family:verdana; font-size:100%; text-align:center ; } 
+ 
+ 
+  
+   
+  
+  
+  
+ 
+  
+  
+       
+
+  .responsive { width: 100%;height: auto%;}
+.btn{font-size: 17px; width:25%;height:auto;}  
+  
+  
+  
+  
+  /* Full-width input fields */
+
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+
+button {
+    background-color: #48d1cc;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #4682b4;
+}
+
+/* Center the image and position
+the close button */
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* The Modal (background) */
+
+.modal {
+   display: none;
+   position: fixed;
+   z-index: 1;
+   left: 0;
+   top: 0;
+   width: auto%;
+   height: auto;
+   overflow: auto;
+   background-color: rgb(0,0,0);
+   background-color: rgba(0,0,0,0.4);
+   padding-top: 50px;
+}
+
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */ 
+
+.animate {
+ -webkit-animation: animatezoom 0.6s;
+ animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+ from {-webkit-transform: scale(0)}
+ to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+    from {transform: scale(0)}
+    to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel
+button on extra small screens */ 
+
+@media screen and(max-width: 300px){
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}    
+  
+ </style> </head> <body> 
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+  
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+     
+   
+   
+   
+   
+   
+   
+   
+   
+   
+ 
+ <div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)"
+  class="closebtn"
+  onclick="closeNav()">&times;</a>
+
+  <a href="Casino-BOT.html">Home</a> <br> 
+  <a href="Subscriptions.html">Subscriptions</a> <br>   
+  <a href="Play-with-script.html">Play With Script</a> <br>
+   <a href="betting-system.html">Betting System</a> <br>         <a href="casino-strategies.html">Casino Strategies</a> <br>
+   <a href="about-bot.html">About BOT</a> <br>        
+  <a href="do-it-yourself.html">Do It Yourself</a> <br>  
+  <a href="live-casino-tips.html">Live Casino Tips</a> <br>
+  </div>
+         
+         
+<span style="color:white; background-color:
+        #333; font-size:40px;cursor:pointer; float:right"onclick="openNav()"><strong style="font-family:ariel black;">menu</strong>
+</span>
+
+   
+   
+   
+      <a href="Casino-Bot.html" style="text-decoration:none"  >
+   <header> <h1>casino BOT</h1> </header> </a><br><br>
+
+     
+   <ul>
+<li><a href="bcgames.html"target="_self" > BCgames</a></li>
+  
+<li><a href="roobet.html"target="_self">Roobet</a> </li>
+  
+<li><a href="betfury.html"target="_self">Betfury</a> </li>
+  
+<li><a href="nanogames.html"target="_self">Nanogames</a> </li></ul><br>   
+   
+   
+   
+   
+   
+      
+<div class="container"> <img src="images/Crash.jpg" alt="Crash.jpg" class="responsive"> 
+<a href="https://bc.game/crash"> <button class="btn"><strong>PLAY</strong></button>  </a>
+  <button onclick="document. getElementById('id01').style.display='block'"
+style="height:auto;font-size:20px;width:68.9%;background-color:#333"><strong>PLAY WITH SCRIPT</strong>
+</button>
+
+  
+  
+  
+  
+<div id="id01" class="modal">
+<form class="modal-content animate"
+ action="error.html"
+<div class="imgcontainer">
+<span onclick="document
+.getElementById('id01')
+.style.display='none'"
+class="close" title="Close Modal">
+    &times;</span>
+  
+  
+  
+  
+ <div class="container">
+   <label><h2 style="font-family:ariel black;text-align:center;"><strong>VERIFICATION</strong></h2></label>
+   <div> <label><p style="color:steelblue;font-family:times new roman;"><strong>To play Game with script, please verify that you have been given access by imputing the specific script id and password</strong></hp></label> </div><br><br><br>
+  <label><b>Script ID</b></label>
+  <input type="text" placeholder="Script ID"
+  name="uname" required>
+<label><b>Password</b></label>
+<input type="password" placeholder=
+"Enter Password" name="psw" required>  
+ <button type="submit">Continue</button>        
+  </div><div class="container"
+ style="background-color:#f1f1f1">
+ <button type="button"
+ onclick="document.getElementById
+ ('id01').style.
+ display='none'" class="cancelbtn">
+ Cancel</button>
+ <span class="psw">Dont have an ID?
+ <a href="subscriptions.html">Click here
+ </a></span></div></form></div></div><br><br>
+  
+    
+  
+ <div class="container">         
+ <img src="images/limbo.jpg" alt="limbo" class="responsive"> 
+<a href="https://bc.game/limbo"> <button class="btn"><strong>PLAY</strong></button></a>
+<button onclick="document. getElementById('id01').
+ style.display='block'"
+style="height:auto;font-size:20px;width:68%;background-color:#333"><strong>PLAY WITH SCRIPT</strong></button>
+
+  
+
+  
+    
+     <div class="container">         
+  <img src="images/dice.jpg" alt="dice" class="responsive"> 
+<a href="https://bc.game/classic-dice"> <button class="btn"><strong>PLAY</strong></button>  </a>
+  
+  <button onclick="document. getElementById('id01').
+ style.display='block'"
+style="height:auto;font-size:20px;width:68%;background-color:#333"><strong>PLAY WITH SCRIPT</strong>
+</button><br><br>
+    
+       
+       
+       
+     <div class="container">         
+  <img src="images/roulette.jpg" alt="roulette" class="responsive"> 
+<a href="https://bc.game/roulette"> <button class="btn"><strong>PLAY</strong></button>  </a>
+  
+  <button onclick="document. getElementById('id01').
+ style.display='block'"
+style="height:auto;font-size:17px;width:73%;background-color:#333"><strong>PLAY WITH SCRIPT</strong>
+</button><br><br>
+  
+  
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+</body></html>  
+<footer > <br> </footer>
+</body> </html> 
+
+
+
+
+
